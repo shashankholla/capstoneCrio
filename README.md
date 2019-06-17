@@ -1,5 +1,5 @@
 ## Run 
-` npm install ` to install dependencies
+` npm install ` first to install dependencies
 
 ## Crio.do Capstone Project based on Angular
 
