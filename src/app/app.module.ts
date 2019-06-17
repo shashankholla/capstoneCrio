@@ -11,14 +11,22 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatCardModule, MatIcon, MatIconModule, MatToolbarModule, MatButtonModule, MatInputModule, ErrorStateMatcher } from '@angular/material';
 import { RegisterComponent } from './register/register.component';
 import { ShowOnDirtyErrorStateMatcher} from '@angular/material';
-
+import {DemoMaterialModule} from './material-module';
+import { MenucardComponent } from './common/menucard.component';
+import { OrdercardComponent } from './common/ordercard.component';
+import { EditMenuComponent } from './acitivites/edit-menu/edit-menu.component';
+import { EditQuantityComponent } from './acitivites/edit-quantity/edit-quantity.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomepageComponent,
     ToolbarComponent,
-    RegisterComponent
+    RegisterComponent,
+    MenucardComponent,
+    OrdercardComponent,
+    EditMenuComponent,
+    EditQuantityComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +39,7 @@ import { ShowOnDirtyErrorStateMatcher} from '@angular/material';
     MatButtonModule,
     ReactiveFormsModule,
     MatInputModule,
+    DemoMaterialModule
            
   ],
   providers: [{provide: ErrorStateMatcher, useClass: ShowOnDirtyErrorStateMatcher}],

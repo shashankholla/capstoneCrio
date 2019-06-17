@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { FormsModule, FormControl, FormGroup , Validators} from '@angular/forms';
+import { FormsModule, FormGroup , Validators} from '@angular/forms';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
