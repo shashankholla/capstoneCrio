@@ -1,0 +1,11 @@
+## Run 
+<<<<<<< HEAD
+Firstly run ` npm install ` to install dependencies
+=======
+` install ` first to install dependencies
+>>>>>>> df60a87bf16cc704ba70a4d40919d7b005484977
+
+## Crio.do Capstone Project based on Angular
+
+## To Launch
+Run ` ng serve `

@@ -1,0 +1,28 @@
+<div class="row">
+  
+
+  <mat-card class="mat-card-c z-depth">
+      <h1 class="text-center" style="text-align: center">GET COOKING!</h1>
+      <div class="card-body">
+<form [formGroup]="loginForm"  style="text-align: center">
+  <div class="form-group" style="margin: 10px">
+   
+    <mat-form-field>
+    <input matInput formControlName="username" name="username" placeholder="Enter Username" minlength="3" type="text" class="form-control">
+  </mat-form-field>
+  </div>
+  <div class="form-group" style="margin: 10px">
+    <mat-form-field>
+      <input matInput placeholder="Enter Password" formControlName="password"    #password type="password" class="form-control">
+    </mat-form-field>
+  </div>
+  <button mat-raised-button color="primary" (click)="submit()">Login</button>
+  <a routerLink="/register"> <button mat-raised-button color="secondary" style="margin:10px;" id="register">New around here?</button> </a>
+
+
+</form></div>
+ 
+  </mat-card>
+
+
+</div>
