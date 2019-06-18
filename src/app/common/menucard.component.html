@@ -1,3 +1,10 @@
-<p>
-  menucard works!
-</p>
+<mat-card>
+  OK
+  <p> {{itemName}} </p>
+  <p> {{itemPrice}} </p>
+  <p> <img src="{{image}}"> </p>
+
+  <div *ngIf="available">
+    AVAILABLE
+  </div>
+</mat-card>
