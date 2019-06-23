@@ -243,7 +243,7 @@ Currently DB has data for this User's restaurant:
 
 ## Links
 
-1. [("Engineering Design Doc")](</docs/QEats Restaurant App - EDD.pdf>)
+1. ["Engineering Design Doc"](</docs/QEats Restaurant App - EDD.pdf>)
    https://docs.google.com/document/d/1pZmBQZdeMnm6twxNAntwyEuARUKHNSYNCA0J_aFlTzA/edit?usp=sharing
-2. "Product Requirement Doc"
+2. ["Product Requirement Doc"](</docs/QEats Restaurant App - PRD.pdf>)
    https://docs.google.com/document/d/13eOloxcUo8GjkRQh-OxBezNKzWik4SnKTw8CB7gzXBQ/edit?usp=sharing
