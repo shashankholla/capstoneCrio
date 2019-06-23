@@ -158,7 +158,7 @@ You'll need:
 
 1. Java JDK
 
-   `sudo apt install deafault-jdk`
+   `sudo apt install default-jdk`
 
 2. Java JRE
 
