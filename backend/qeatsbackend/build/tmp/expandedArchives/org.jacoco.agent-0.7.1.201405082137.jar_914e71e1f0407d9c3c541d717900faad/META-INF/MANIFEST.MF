@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: godin
+Build-Jdk: 1.5.0_22
+Eclipse-SourceReferences: scm:git:git://github.com/jacoco/jacoco.git;p
+ ath="org.jacoco.agent";commitId=1755a4d688cdbfc574ddf6b3cdc75bf59932a
+ 715
+Bundle-ManifestVersion: 2
+Bundle-Name: JaCoCo Agent
+Bundle-SymbolicName: org.jacoco.agent
+Bundle-Version: 0.7.1.201405082137
+Bundle-Vendor: Mountainminds GmbH & Co. KG
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.jacoco.agent;version="0.7.1"
+
+Name: org/jacoco/agent/AgentJar.class
+SHA1-Digest: m/pw5pHyTwQ1iB3Or7PKmHAQml0=
+
+Name: META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml
+SHA1-Digest: UoIty7DboQ74nRdilLUzKAQSHcU=
+
+Name: META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties
+SHA1-Digest: 9WX8wuX5eZFas4lk66DxprnWvtU=
+
+Name: jacocoagent.jar
+SHA1-Digest: 4ITmuKAAwqP9cfocb2A/R/kOp8Q=
+
+Name: about.html
+SHA1-Digest: fSdl3Ojl/72SGQslPIvAdjKalY4=
+

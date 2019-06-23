@@ -1,0 +1,15 @@
+[
+  {
+    "id": "abcdc864835e31495d621234",
+    "restaurantId": "abcdc864835e31495d621234",
+    "name": "Nathan Cafe",
+    "city": "Chennai",
+    "imageUrl": "www.google.com",
+    "latitude": 22.93,
+    "longitude": 23.4445,
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  }
+]

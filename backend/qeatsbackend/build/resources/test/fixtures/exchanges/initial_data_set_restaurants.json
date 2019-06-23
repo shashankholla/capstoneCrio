@@ -1,0 +1,77 @@
+[
+  {
+    "id": "10",
+    "restaurantId": "10",
+    "name": "A2B",
+    "city": "Hsr Layout",
+    "imageUrl": "www.google.com",
+    "latitude": 20.027,
+    "longitude": 30.0,
+    "opensAt": "18:00",
+    "closesAt": "23:00",
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  },
+  {
+    "id": "11",
+    "restaurantId": "11",
+    "name": "A2B",
+    "city": "Btm Layout",
+    "imageUrl": "www.google.com",
+    "latitude": 20.0269,
+    "longitude": 30.00,
+    "opensAt": "18:00",
+    "closesAt": "23:00",
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  },
+  {
+    "id": "12",
+    "restaurantId": "12",
+    "name": "A2B",
+    "city": "Electronic City",
+    "imageUrl": "www.google.com",
+    "latitude": 20.015,
+    "longitude": 30.015,
+    "opensAt": "18:00",
+    "closesAt": "23:00",
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  },
+  {
+    "id": "13",
+    "restaurantId": "13",
+    "name": "A2B",
+    "city": "Shanthinagar BMTC",
+    "imageUrl": "www.google.com",
+    "latitude": 20.8,
+    "longitude": 30.1,
+    "opensAt": "18:00",
+    "closesAt": "23:00",
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  },
+  {
+    "id": "14",
+    "restaurantId": "14",
+    "name": "A2B Adyar Ananda Bhavan",
+    "city": "Koramangala",
+    "imageUrl": "www.google.com",
+    "latitude": 20.78,
+    "longitude": 30.09,
+    "opensAt": "18:00",
+    "closesAt": "23:00",
+    "attributes": [
+      "Tamil",
+      "South Indian"
+    ]
+  }
+]

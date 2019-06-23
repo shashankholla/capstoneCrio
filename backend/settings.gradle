@@ -1,0 +1,11 @@
+/*
+ *
+ *  * Copyright (c) Crio.Do 2019. All rights reserved
+ *
+ */
+// Make sure the project name is the module name.
+// This is what will be used to decide what testsuites will be run by Crio.
+rootProject.name = 'ME_QEATS_MODULE_DEPLOYMENT'
+
+include 'qeatsbackend'
+

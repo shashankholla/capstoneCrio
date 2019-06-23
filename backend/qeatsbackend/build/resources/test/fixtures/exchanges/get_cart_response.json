@@ -1,0 +1,18 @@
+{
+  "id": "1",
+  "restaurantId": "10",
+  "userId": "Bunny",
+  "items": [
+    {
+      "id": "1",
+      "itemId": "1",
+      "name": "Chicken Briyani",
+      "imageUrl": "www.google.com",
+      "attributes": [
+        "Mughal"
+      ],
+      "price": "225"
+    }
+  ],
+  "total": "225"
+}

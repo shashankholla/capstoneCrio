@@ -1,0 +1,6 @@
+Tips for Debugging Dependedncy Injection (DI) and Autowiring
+1. Enable the debug=true in application.properties file
+2. Check log files
+3. See if the sources and resources files are properly loaded
+4. Check Warnings and Errors in the Logs
+5. Ignore the INFO logs

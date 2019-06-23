@@ -1,0 +1,17 @@
+{
+  "restaurants": [
+    {
+      "id": "5cb8c864835e31495d62ba16",
+      "restaurantId": "abcdc864835e31495d621234",
+      "name": "Junior Kuppanna",
+      "city": "Namakkal",
+      "imageUrl": "www.google.com",
+      "latitude": 22.93,
+      "longitude": 23.4445,
+      "attributes": [
+        "Tamil",
+        "South Indian"
+      ]
+    }
+  ]
+}

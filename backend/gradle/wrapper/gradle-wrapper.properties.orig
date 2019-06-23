@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+#Thu May 09 12:52:37 IST 2019
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.2.1-all.zip
+=======
+#
+# /*
+#  * Copyright (c) Crio.Do 2019. All rights reserved
+#  */
+#
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.2.1-bin.zip
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+>>>>>>> 3501452f47f4e57f1716d39443c7d321a79f2411

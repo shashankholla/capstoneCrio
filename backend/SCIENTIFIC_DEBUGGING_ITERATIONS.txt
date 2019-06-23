@@ -1,0 +1,26 @@
+Iteration (1):
+    Observation: Initial Run shows error that No ParameterResolver for Jackson Object Mapper object parameter
+    Hypothesis: The ObjectMapper object is passed as an parameter to the Test method and injected as an dependency by
+                the @Autowired annotation. It is possible that this object is not available to the method as a bean.
+    Prediction: The test should be passed but since the ObjectMapper object parameter is not resolved,
+                it will show error.
+    Experiment: Run the given test case
+Iteration (2):
+    Observation: Run fails due to the same error
+    Hypothesis: To make the bean available to the Test Method, do following:
+                    1. Add a config class which returns a bean of instantiated ObjectMapper
+                    2. Using @ContextConfiguration annotation add the config class to the main
+                       RestaurantAutoWiringTest class
+                    3. The annotation should be added just before the RestaurantAutoWiringTest class
+    Prediction: The test should be passed
+    Experiment: Run the given test method
+Iteration (3):
+    Observation: Run fails due to the same error
+    Hypothesis: The application is not able to lead the configuration class.
+                To load the application properly, do following:
+                    1. Add @SpringBootTest annotation just before the test class
+                    2. Check the logs, if the config file is loaded correctly or not
+    Prediction: The test should be passed
+    Experiment: Run the given test method
+Iteration (4):
+    Observation: The test is passed without any errors and shows no error in logs.

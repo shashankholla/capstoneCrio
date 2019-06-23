@@ -1,0 +1,12 @@
+/*
+ *
+ *  * Copyright (c) Crio.Do 2019. All rights reserved
+ *  
+ */
+
+task installGitHooks(type: Copy) {
+    from new File(rootProject.rootDir, 'pre-push')
+    into { new File(rootProject.rootDir, '.git/hooks') }
+}
+
+build.dependsOn installGitHooks

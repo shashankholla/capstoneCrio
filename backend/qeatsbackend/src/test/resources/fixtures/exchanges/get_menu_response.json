@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "restaurantId": "11",
+    "items": [
+      {
+        "id": "1",
+        "itemId": "1",
+        "name": "Chicken Briyani",
+        "imageUrl": "www.google.com",
+        "attributes": [
+          "Moghul"
+        ],
+        "price": "225"
+      }
+    ]
+  }
+}

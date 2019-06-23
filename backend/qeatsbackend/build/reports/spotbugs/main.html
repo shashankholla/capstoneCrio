@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SpotBugs Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+		    color: red;
+		    font-weight: bold;
+		}
+		.priority-2 {
+		    color: orange;
+		    font-weight: bold;
+		}
+		.priority-3 {
+		    color: green;
+		    font-weight: bold;
+		}
+		.priority-4 {
+		    color: blue;
+		    font-weight: bold;
+		}
+		</style>
+<script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+</head>
+<body>
+<h1>
+<a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+<h2>Project Information</h2>
+<p>Project: 
+		project ':qeatsbackend' (main)</p>
+<p>SpotBugs version: 3.1.12</p>
+<p>Code analyzed:</p>
+<ul>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/Cart.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/ItemQuantity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/Restaurant.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/Item.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/User.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/Order.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/dto/Menu.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/config/SpringAsyncConfiguration.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/config/RedisConfiguration.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/config/SwaggerConfig.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/QEatsApplication.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/controller/RestaurantController.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/globals/GlobalConstants.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/UserServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/RestaurantServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/RestaurantServiceImpl$2.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/RestaurantService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/QuantityService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/RestaurantServiceImpl$1.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/MenuService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/UserService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/MenuServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/CartAndOrderService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/CartAndOrderServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/services/QuantityServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/UserLoginRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/AddMenuRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/RemoveMenuItemRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/UserResponse.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetCartRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/PostOrderRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/ClearCartRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/CartModifiedResponse.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/EditQuantityRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/UpdateOrderStatusRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/AddCartRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetOrdersRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetRestaurantsResponse.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/DeleteCartRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetRestaurantsRequest.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetOrdersResponse.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exchanges/GetMenuResponse.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/MenuRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/ItemRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/QuantityRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/CartRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/UserRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/OrderRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositories/RestaurantRepository.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/utils/GeoUtils.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/utils/GeoLocation.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/utils/FixtureHelpers.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/EmptyCartException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/CartNotFoundException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/ItemNotFromSameRestaurantException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/QEatsException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/UserNotFoundException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/exceptions/ItemNotFoundInRestaurantMenuException.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/MenuRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/UserRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/RestaurantRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/MenuRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/CartRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/RestaurantRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/ItemRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/RestaurantRepositoryServiceDummyImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/RestaurantRepositoryServiceDummyImpl$1.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/OrderRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/CartRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/QuantityRespositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/ItemRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/UserRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/QuantityRepositoryServiceImpl.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/repositoryservices/OrderRepositoryService.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/ItemEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/QuantityEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/MenuEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/UserEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/CartEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/OrderEntity.class</li>
+<li>/home/crio-user/iaminevitable/backend/qeatsbackend/build/classes/java/main/com/crio/qeats/models/RestaurantEntity.class</li>
+</ul>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Metrics</h2>
+<p>2167 lines of code analyzed,
+	in 81 classes, 
+	in 12 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Priority Warnings</td>
+<td align="right"/>
+<td align="right">0.00</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Priority Warnings</td>
+<td align="right"/>
+<td align="right">0.00</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>0</b>
+</td>
+<td align="right">
+<b>0.00</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Contents</h2>
+<ul>
+<li>
+<a href="#Details">Details</a>
+</li>
+</ul>
+<h1>Summary</h1>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>0</b>
+</td>
+</tr>
+</table>
+<h1>Warnings</h1>
+<p>Click on a warning row to see full context information.</p>
+<h1>
+<a name="Details">Details</a>
+</h1>
+</body>
+</html>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.10.0" timestamp="2019-06-19T21:12:40.227">
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/controller/RestaurantController.java">
+<violation beginline="73" endline="73" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" variable="restaurantService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="76" endline="76" begincolumn="15" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" variable="menuService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="79" endline="79" begincolumn="23" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" variable="cartAndOrderService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="82" endline="82" begincolumn="15" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" variable="userService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="85" endline="85" begincolumn="19" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" variable="quantityService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="161" endline="176" begincolumn="12" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getRestaurants" variable="searchFor" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'searchFor' (lines '161'-'176').
+</violation>
+<violation beginline="212" endline="212" begincolumn="21" endcolumn="34" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getMenu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;restaurantId&quot; appears 4 times in this file; the first occurrence is on line 212
+</violation>
+<violation beginline="212" endline="212" begincolumn="21" endcolumn="34" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getMenu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;restaurantId&quot; appears 4 times in this file; the first occurrence is on line 212
+</violation>
+<violation beginline="223" endline="229" begincolumn="7" endcolumn="63" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="addItem" variable="getMenuResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'getMenuResponse' (lines '223'-'229').
+</violation>
+<violation beginline="229" endline="237" begincolumn="7" endcolumn="63" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="addItem" variable="getMenuResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'getMenuResponse' (lines '229'-'237').
+</violation>
+<violation beginline="243" endline="247" begincolumn="7" endcolumn="65" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="removeItem" variable="menuResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'menuResponse' (lines '243'-'247').
+</violation>
+<violation beginline="247" endline="253" begincolumn="7" endcolumn="65" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="removeItem" variable="menuResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'menuResponse' (lines '247'-'253').
+</violation>
+<violation beginline="257" endline="266" begincolumn="10" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="editItem" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'item' (lines '257'-'266').
+</violation>
+<violation beginline="271" endline="277" begincolumn="7" endcolumn="83" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="editItemQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '271'-'277').
+</violation>
+<violation beginline="277" endline="290" begincolumn="7" endcolumn="83" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="editItemQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemQuantity' (lines '277'-'290').
+</violation>
+<violation beginline="296" endline="298" begincolumn="7" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getItemQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '296'-'298').
+</violation>
+<violation beginline="298" endline="304" begincolumn="7" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getItemQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemQuantity' (lines '298'-'304').
+</violation>
+<violation beginline="344" endline="350" begincolumn="7" endcolumn="74" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="getCart" variable="getCartResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'getCartResponse' (lines '344'-'350').
+</violation>
+<violation beginline="404" endline="406" begincolumn="7" endcolumn="47" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="addItem" variable="cartModifiedResponse" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cartModifiedResponse' (lines '404'-'406').
+</violation>
+<violation beginline="497" endline="499" begincolumn="7" endcolumn="51" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.controller" class="RestaurantController" method="placeOrder" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'order' (lines '497'-'499').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/CartNotFoundException.java">
+<violation beginline="3" endline="9" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="CartNotFoundException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="9" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="CartNotFoundException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/EmptyCartException.java">
+<violation beginline="3" endline="13" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="EmptyCartException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="13" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="EmptyCartException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/ItemNotFoundInRestaurantMenuException.java">
+<violation beginline="3" endline="13" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="ItemNotFoundInRestaurantMenuException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="13" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="ItemNotFoundInRestaurantMenuException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/ItemNotFromSameRestaurantException.java">
+<violation beginline="3" endline="15" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="ItemNotFromSameRestaurantException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="15" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="ItemNotFromSameRestaurantException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/QEatsException.java">
+<violation beginline="3" endline="19" begincolumn="10" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="19" begincolumn="10" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exceptions/UserNotFoundException.java">
+<violation beginline="3" endline="11" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="UserNotFoundException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="11" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.exceptions" class="UserNotFoundException" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/exchanges/GetRestaurantsResponse.java">
+<violation beginline="59" endline="59" begincolumn="20" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.exchanges" class="GetRestaurantsResponse" variable="restaurants" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/globals/GlobalConstants.java">
+<violation beginline="64" endline="69" begincolumn="9" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.globals" class="GlobalConstants" method="destroyCache" variable="key" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'key' (lines '64'-'69').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/models/CartEntity.java">
+<violation beginline="31" endline="31" begincolumn="22" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.models" class="CartEntity" variable="items" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="34" endline="34" begincolumn="15" endcolumn="19" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.models" class="CartEntity" variable="total" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/CartRepositoryServiceImpl.java">
+<violation beginline="28" endline="28" begincolumn="18" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" variable="cartRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="31" endline="31" begincolumn="25" endcolumn="43" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" variable="modelMapperProvider" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="43" endline="58" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByUserId" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '43'-'58').
+</violation>
+<violation beginline="47" endline="53" begincolumn="7" endcolumn="38" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByUserId" variable="optionalCart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'optionalCart' (lines '47'-'53').
+</violation>
+<violation beginline="47" endline="58" begincolumn="20" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByUserId" variable="optionalCart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'optionalCart' (lines '47'-'58').
+</violation>
+<violation beginline="49" endline="52" begincolumn="7" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByUserId" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cart' (lines '49'-'52').
+</violation>
+<violation beginline="49" endline="58" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByUserId" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cart' (lines '49'-'58').
+</violation>
+<violation beginline="62" endline="71" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByCartId" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '62'-'71').
+</violation>
+<violation beginline="64" endline="66" begincolumn="7" endcolumn="58" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByCartId" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cart' (lines '64'-'66').
+</violation>
+<violation beginline="64" endline="71" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="findCartByCartId" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cart' (lines '64'-'71').
+</violation>
+<violation beginline="75" endline="90" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="addItem" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '75'-'90').
+</violation>
+<violation beginline="77" endline="85" begincolumn="7" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="addItem" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cart' (lines '77'-'85').
+</violation>
+<violation beginline="77" endline="90" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="addItem" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cart' (lines '77'-'90').
+</violation>
+<violation beginline="81" endline="81" begincolumn="43" endcolumn="43" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="addItem" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="81" endline="81" begincolumn="43" endcolumn="43" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="addItem" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="93" endline="102" begincolumn="13" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="removeItem" variable="itemInCart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'itemInCart' (lines '93'-'102').
+</violation>
+<violation beginline="95" endline="116" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="removeItem" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '95'-'116').
+</violation>
+<violation beginline="97" endline="111" begincolumn="7" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="removeItem" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'cart' (lines '97'-'111').
+</violation>
+<violation beginline="97" endline="116" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="CartRepositoryServiceImpl" method="removeItem" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cart' (lines '97'-'116').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/ItemRepositoryServiceImpl.java">
+<violation beginline="16" endline="16" begincolumn="25" endcolumn="43" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="ItemRepositoryServiceImpl" variable="modelMapperProvider" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="26" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="ItemRepositoryServiceImpl" variable="itemRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="40" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="ItemRepositoryServiceImpl" method="findByItemId" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '32'-'40').
+</violation>
+<violation beginline="35" endline="37" begincolumn="7" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="ItemRepositoryServiceImpl" method="findByItemId" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'item' (lines '35'-'37').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/MenuRepositoryServiceImpl.java">
+<violation beginline="31" endline="31" begincolumn="26" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" variable="menuRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="34" endline="34" begincolumn="26" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" variable="itemRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="37" endline="37" begincolumn="30" endcolumn="47" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" variable="quantityRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="40" endline="40" begincolumn="33" endcolumn="51" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" variable="modelMapperProvider" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="43" endline="54" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="findMenu" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '43'-'54').
+</violation>
+<violation beginline="47" endline="50" begincolumn="7" endcolumn="56" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="findMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'menu' (lines '47'-'50').
+</violation>
+<violation beginline="58" endline="81" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="addItemToMenu" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '58'-'81').
+</violation>
+<violation beginline="60" endline="68" begincolumn="9" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="addItemToMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'menu' (lines '60'-'68').
+</violation>
+<violation beginline="60" endline="81" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="addItemToMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'menu' (lines '60'-'81').
+</violation>
+<violation beginline="62" endline="81" begincolumn="18" endcolumn="89" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="addItemToMenu" variable="menuEntity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'menuEntity' (lines '62'-'81').
+</violation>
+<violation beginline="84" endline="91" begincolumn="13" endcolumn="43" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="removeItemFromMenu" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'item' (lines '84'-'91').
+</violation>
+<violation beginline="86" endline="103" begincolumn="7" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="removeItemFromMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'menu' (lines '86'-'103').
+</violation>
+<violation beginline="86" endline="109" begincolumn="10" endcolumn="20" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="removeItemFromMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'menu' (lines '86'-'109').
+</violation>
+<violation beginline="89" endline="92" begincolumn="11" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="removeItemFromMenu" variable="itemToBeDeleted" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemToBeDeleted' (lines '89'-'92').
+</violation>
+<violation beginline="92" endline="92" begincolumn="11" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="removeItemFromMenu" variable="itemToBeDeleted" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemToBeDeleted' (lines '92'-'92').
+</violation>
+<violation beginline="112" endline="120" begincolumn="13" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'item' (lines '112'-'120').
+</violation>
+<violation beginline="114" endline="136" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '114'-'136').
+</violation>
+<violation beginline="115" endline="132" begincolumn="7" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'menu' (lines '115'-'132').
+</violation>
+<violation beginline="118" endline="129" begincolumn="9" endcolumn="11" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'i' (lines '118'-'129').
+</violation>
+<violation beginline="118" endline="136" begincolumn="11" endcolumn="13" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'i' (lines '118'-'136').
+</violation>
+<violation beginline="129" endline="129" begincolumn="9" endcolumn="11" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'i' (lines '129'-'129').
+</violation>
+<violation beginline="129" endline="136" begincolumn="9" endcolumn="11" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="MenuRepositoryServiceImpl" method="updateItemInMenu" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'i' (lines '129'-'136').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/OrderRepositoryServiceImpl.java">
+<violation beginline="27" endline="27" begincolumn="27" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" variable="orderRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="33" endcolumn="51" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" variable="modelMapperProvider" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="42" endline="51" begincolumn="9" endcolumn="64" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="getOrdersByRestaurant" variable="orderEntity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'orderEntity' (lines '42'-'51').
+</violation>
+<violation beginline="43" endline="55" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="getOrdersByRestaurant" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '43'-'55').
+</violation>
+<violation beginline="60" endline="71" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="updateStatus" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '60'-'71').
+</violation>
+<violation beginline="61" endline="68" begincolumn="7" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="updateStatus" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'order' (lines '61'-'68').
+</violation>
+<violation beginline="75" endline="84" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="getOrderById" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '75'-'84').
+</violation>
+<violation beginline="76" endline="81" begincolumn="7" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="OrderRepositoryServiceImpl" method="getOrderById" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'order' (lines '76'-'81').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/QuantityRepositoryServiceImpl.java">
+<violation beginline="18" endline="18" begincolumn="30" endcolumn="47" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" variable="quantityRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="21" endline="21" begincolumn="33" endcolumn="51" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" variable="modelMapperProvider" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="25" endline="33" begincolumn="7" endcolumn="72" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="updateQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '25'-'33').
+</violation>
+<violation beginline="25" endline="40" begincolumn="18" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="updateQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemQuantity' (lines '25'-'40').
+</violation>
+<violation beginline="27" endline="40" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="updateQuantity" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '27'-'40').
+</violation>
+<violation beginline="44" endline="51" begincolumn="7" endcolumn="72" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="getQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '44'-'51').
+</violation>
+<violation beginline="44" endline="58" begincolumn="18" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="getQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemQuantity' (lines '44'-'58').
+</violation>
+<violation beginline="47" endline="58" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="QuantityRepositoryServiceImpl" method="getQuantity" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'modelMapper' (lines '47'-'58').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/RestaurantRepositoryServiceDummyImpl.java">
+<violation beginline="20" endline="20" begincolumn="24" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceDummyImpl" variable="objectMapper" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="36" endline="46" begincolumn="7" endcolumn="94" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceDummyImpl" method="findAllRestaurantsCloseBy" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '36'-'46').
+</violation>
+<violation beginline="39" endline="41" begincolumn="7" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceDummyImpl" method="findAllRestaurantsCloseBy" variable="restaurantList" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'restaurantList' (lines '39'-'41').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/RestaurantRepositoryServiceImpl.java">
+<violation beginline="42" endline="42" begincolumn="32" endcolumn="51" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" variable="restaurantRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="45" endline="45" begincolumn="25" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" variable="mongoTemplate" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="88" endline="97" begincolumn="17" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseFromDb" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '88'-'97').
+</violation>
+<violation beginline="95" endline="126" begincolumn="9" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseFromDb" variable="timing" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'timing' (lines '95'-'126').
+</violation>
+<violation beginline="152" endline="185" begincolumn="11" endcolumn="69" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseByFromCache" variable="r" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'r' (lines '152'-'185').
+</violation>
+<violation beginline="152" endline="188" begincolumn="11" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseByFromCache" variable="r" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'r' (lines '152'-'188').
+</violation>
+<violation beginline="156" endline="180" begincolumn="7" endcolumn="42" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseByFromCache" variable="restaurantList" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'restaurantList' (lines '156'-'180').
+</violation>
+<violation beginline="159" endline="195" begincolumn="9" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findAllRestaurantsCloseByFromCache" variable="timing" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'timing' (lines '159'-'195').
+</violation>
+<violation beginline="202" endline="212" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByName" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '202'-'212').
+</violation>
+<violation beginline="205" endline="205" begincolumn="76" endcolumn="81" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;/i}}&quot; appears 8 times in this file; the first occurrence is on line 205
+</violation>
+<violation beginline="205" endline="205" begincolumn="76" endcolumn="81" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;/i}}&quot; appears 8 times in this file; the first occurrence is on line 205
+</violation>
+<violation beginline="207" endline="207" begincolumn="46" endcolumn="58" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;restaurants&quot; appears 8 times in this file; the first occurrence is on line 207
+</violation>
+<violation beginline="207" endline="207" begincolumn="46" endcolumn="58" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;restaurants&quot; appears 8 times in this file; the first occurrence is on line 207
+</violation>
+<violation beginline="238" endline="248" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByNameAsync" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '238'-'248').
+</violation>
+<violation beginline="276" endline="286" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByAttributes" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '276'-'286').
+</violation>
+<violation beginline="312" endline="322" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByAttributesAsync" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '312'-'322').
+</violation>
+<violation beginline="351" endline="358" begincolumn="14" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'menu' (lines '351'-'358').
+</violation>
+<violation beginline="351" endline="367" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '351'-'367').
+</violation>
+<violation beginline="355" endline="355" begincolumn="74" endcolumn="80" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;menus&quot; appears 4 times in this file; the first occurrence is on line 355
+</violation>
+<violation beginline="355" endline="355" begincolumn="74" endcolumn="80" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;menus&quot; appears 4 times in this file; the first occurrence is on line 355
+</violation>
+<violation beginline="359" endline="359" begincolumn="51" endcolumn="66" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;{restaurantId:&quot; appears 4 times in this file; the first occurrence is on line 359
+</violation>
+<violation beginline="359" endline="359" begincolumn="51" endcolumn="66" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemName" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;{restaurantId:&quot; appears 4 times in this file; the first occurrence is on line 359
+</violation>
+<violation beginline="393" endline="400" begincolumn="14" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemNameAsync" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'menu' (lines '393'-'400').
+</violation>
+<violation beginline="393" endline="409" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemNameAsync" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '393'-'409').
+</violation>
+<violation beginline="437" endline="445" begincolumn="14" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemAttributes" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'menu' (lines '437'-'445').
+</violation>
+<violation beginline="437" endline="454" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemAttributes" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '437'-'454').
+</violation>
+<violation beginline="480" endline="487" begincolumn="14" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemAttributesAsync" variable="menu" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'menu' (lines '480'-'487').
+</violation>
+<violation beginline="480" endline="496" begincolumn="11" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="RestaurantRepositoryServiceImpl" method="findRestaurantsByItemAttributesAsync" variable="restaurant" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'restaurant' (lines '480'-'496').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/repositoryservices/UserRepositoryServiceImpl.java">
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.repositoryservices" class="UserRepositoryServiceImpl" variable="userRepository" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/services/CartAndOrderServiceImpl.java">
+<violation beginline="31" endline="31" begincolumn="25" endcolumn="45" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" variable="cartRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="34" endline="34" begincolumn="26" endcolumn="47" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" variable="orderRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="37" endline="37" begincolumn="15" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" variable="menuService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="39" endline="39" begincolumn="31" endcolumn="38" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" variable="response" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="9" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="postOrder" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="9" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="postOrder" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="123" endline="128" begincolumn="13" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="getAllPlacedOrders" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'order' (lines '123'-'128').
+</violation>
+<violation beginline="137" endline="142" begincolumn="13" endcolumn="49" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="getAllOrders" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'order' (lines '137'-'142').
+</violation>
+<violation beginline="153" endline="163" begincolumn="13" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="updateStatusOfOrder" variable="orderInList" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'orderInList' (lines '153'-'163').
+</violation>
+<violation beginline="157" endline="171" begincolumn="13" endcolumn="89" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="updateStatusOfOrder" variable="newOrder" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'newOrder' (lines '157'-'171').
+</violation>
+<violation beginline="174" endline="183" begincolumn="13" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="updateStatusOfPlacedOrders" variable="orderInList" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'orderInList' (lines '174'-'183').
+</violation>
+<violation beginline="177" endline="189" begincolumn="13" endcolumn="89" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="CartAndOrderServiceImpl" method="updateStatusOfPlacedOrders" variable="newOrder" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'newOrder' (lines '177'-'189').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/services/MenuServiceImpl.java">
+<violation beginline="27" endline="27" begincolumn="25" endcolumn="45" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="MenuServiceImpl" variable="menuRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="25" endcolumn="45" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="MenuServiceImpl" variable="itemRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="45" endline="50" begincolumn="11" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="MenuServiceImpl" method="findItem" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'item' (lines '45'-'50').
+</violation>
+<violation beginline="85" endline="85" begincolumn="11" endcolumn="12" rule="AvoidInstanceofChecksInCatchClause" ruleset="Error Prone" package="com.crio.qeats.services" class="MenuServiceImpl" method="removeItem" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidinstanceofchecksincatchclause" priority="3">
+An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+</violation>
+<violation beginline="85" endline="85" begincolumn="11" endcolumn="12" rule="AvoidInstanceofChecksInCatchClause" ruleset="Error Prone" package="com.crio.qeats.services" class="MenuServiceImpl" method="removeItem" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#avoidinstanceofchecksincatchclause" priority="3">
+An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/services/QuantityServiceImpl.java">
+<violation beginline="12" endline="12" begincolumn="38" endcolumn="63" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" variable="quantityRespositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="20" begincolumn="7" endcolumn="93" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" method="updateQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '17'-'20').
+</violation>
+<violation beginline="21" endline="23" begincolumn="7" endcolumn="5" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" method="updateQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="21" endline="23" begincolumn="7" endcolumn="5" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" method="updateQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="30" endline="33" begincolumn="7" endcolumn="81" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" method="getQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'itemQuantity' (lines '30'-'33').
+</violation>
+<violation beginline="33" endline="40" begincolumn="7" endcolumn="81" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="QuantityServiceImpl" method="getQuantity" variable="itemQuantity" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'itemQuantity' (lines '33'-'40').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/services/RestaurantServiceImpl.java">
+<violation beginline="29" endline="29" begincolumn="21" endcolumn="42" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourBreakfastStart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="21" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourBreakfastEnd" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="32" begincolumn="21" endcolumn="38" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourLunchStart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="33" endline="33" begincolumn="21" endcolumn="36" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourLunchEnd" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="35" endline="35" begincolumn="21" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourDinnerStart" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="36" endline="36" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHourDinnerEnd" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="38" endline="38" begincolumn="24" endcolumn="50" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="peakHoursServingRadiusInKms" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="39" endline="39" begincolumn="24" endcolumn="52" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="normalHoursServingRadiusInKms" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="41" endline="41" begincolumn="39" endcolumn="65" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="restaurantRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="43" endline="43" begincolumn="33" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" variable="response" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="83" endline="125" begincolumn="9" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQuery" variable="timing" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'timing' (lines '83'-'125').
+</violation>
+<violation beginline="85" endline="125" begincolumn="12" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQuery" variable="latitude" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'latitude' (lines '85'-'125').
+</violation>
+<violation beginline="86" endline="125" begincolumn="12" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQuery" variable="longitude" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'longitude' (lines '86'-'125').
+</violation>
+<violation beginline="131" endline="195" begincolumn="9" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQueryMt" variable="timing" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'timing' (lines '131'-'195').
+</violation>
+<violation beginline="133" endline="195" begincolumn="12" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQueryMt" variable="latitude" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'latitude' (lines '133'-'195').
+</violation>
+<violation beginline="134" endline="195" begincolumn="12" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.services" class="RestaurantServiceImpl" method="findRestaurantsBySearchQueryMt" variable="longitude" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'longitude' (lines '134'-'195').
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/services/UserServiceImpl.java">
+<violation beginline="13" endline="13" begincolumn="25" endcolumn="45" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="com.crio.qeats.services" class="UserServiceImpl" variable="userRepositoryService" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/utils/GeoLocation.java">
+<violation beginline="14" endline="83" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.utils" class="GeoLocation" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="14" endline="83" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.crio.qeats.utils" class="GeoLocation" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="/home/crio-user/iaminevitable/backend/qeatsbackend/src/main/java/com/crio/qeats/utils/GeoUtils.java">
+<violation beginline="46" endline="50" begincolumn="5" endcolumn="58" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.crio.qeats.utils" class="GeoUtils" method="distance" variable="distance" externalInfoUrl="https://pmd.github.io/pmd-6.10.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'distance' (lines '46'-'50').
+</violation>
+</file>
+</pmd>
